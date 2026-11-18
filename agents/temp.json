@@ -1,0 +1,24 @@
+{'messages': [HumanMessage(content='What is the price of Kaju Katli?', additional_kwargs={}, response_metadata={}, id='ac49ff32-e11a-4973-9919-0ab78e713cc8'), AIMessage(content='', additional_kwargs={'tool_calls': [
+                {'id': 'csnynde3n', 'function': {'arguments': '{
+                            "product_name": "Kaju Katli"
+                        }', 'name': 'get_product_price'
+                    }, 'type': 'function'
+                }
+            ]
+        }, response_metadata={'token_usage': {'completion_tokens': 31, 'prompt_tokens': 853, 'total_tokens': 884, 'completion_time': 0.093211341, 'completion_tokens_details': None, 'prompt_time': 0.060492403, 'prompt_tokens_details': None, 'queue_time': 0.167421726, 'total_time': 0.153703744
+            }, 'model_name': 'qwen/qwen3.8-27b', 'system_fingerprint': 'fp_a1293f40b5', 'service_tier': 'on_demand', 'finish_reason': 'tool_calls', 'logprobs': None, 'model_provider': 'groq'
+        }, id='lc_run--01a1cefe-b518-77d5-89f2-ad3811e10d11-0', tool_calls=[
+            {'name': 'get_product_price', 'args': {'product_name': 'Kaju Katli'
+                }, 'id': 'csnynde3n', 'type': 'tool_call'
+            }
+        ], invalid_tool_calls=[], usage_metadata={'input_tokens': 853, 'output_tokens': 31, 'total_tokens': 884
+        }), ToolMessage(content='[
+            "Kaju Katli",
+            900.0,
+            "kg"
+        ]', name='get_product_price', id='61cc76c7-f4bd-4aa4-b746-72b20a97d42b', tool_call_id='csnynde3n'), AIMessage(content='Kaju Katli is priced at ₹900.0 per kg.', additional_kwargs={}, response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 917, 'total_tokens': 934, 'completion_time': 0.037801978, 'completion_tokens_details': None, 'prompt_time': 0.065130809, 'prompt_tokens_details': None, 'queue_time': 0.050154641, 'total_time': 0.102932787
+            }, 'model_name': 'qwen/qwen3.8-27b', 'system_fingerprint': 'fp_424cb89518', 'service_tier': 'on_demand', 'finish_reason': 'stop', 'logprobs': None, 'model_provider': 'groq'
+        }, id='lc_run--01a1cefe-b7f2-71e0-945d-9c683d16b37b-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 917, 'output_tokens': 17, 'total_tokens': 934
+        })
+    ]
+}
